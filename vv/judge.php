@@ -25,7 +25,6 @@
             $from = "mobile";
         }
 
-        echo "=============";
         $url = "http://www.gxsgx.com/indexfinal.php?keyword=" . $title . "&from=" . $from . "&userAgent=" . $userAgent;
         //file_get_contents无法获取内容？$html_str = file_get_contents($url);
 
