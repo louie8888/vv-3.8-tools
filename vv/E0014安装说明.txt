@@ -1,0 +1,10 @@
+欢迎您使用本源码，微e站专业资源下载平台，加入VIP免费下载所有资源。
+
+微e站官网地址 http://www.vioee.com
+
+联系QQ：56734112
+
+
+安装教程
+  
+传上空间运行即可，后台地址：http://网站地址/@admin/index.php 默认账号: admin 默认密码: www.vioee.com
