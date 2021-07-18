@@ -56,3 +56,5 @@ do
 
 done
 service nginx restart
+#防止上面赋权失败。奇怪，为啥会失败呢。
+chmod -R 777 * /www/wwwroot/
