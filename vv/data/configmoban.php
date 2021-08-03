@@ -6,7 +6,7 @@ return array (
   'web_url' => 'http://www.@domain/',
   'web_keywords' => '@keyword',
   'web_description' => '@description',
-  'web_tongji' => '<script src="51la.js"></script>',
+  'web_tongji' => '',
   'collectid' => '3',
   'sifton' => '1',
   'sifturl' => '',
