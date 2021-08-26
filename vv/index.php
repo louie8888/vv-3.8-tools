@@ -4,18 +4,17 @@
 qq: 996948519
 ---------------------------*/
 
-//åˆ¤æ–­jsè¿˜æ˜¯phpåŠ è½½å¹¿å‘Šï¼Œç”±è¿œç¨‹ç»Ÿä¸€ç®¡ç†æ¯”è¾ƒæ–¹ä¾¿çµæ´»åˆ‡æ¢  æš‚æ—¶å…ˆä¸ç”¨ã€‚ä¸ç„¶å¯èƒ½ä¼šå‡æ…¢å“åº”é€Ÿåº¦ã€‚
+//ÅĞ¶Ïjs»¹ÊÇphp¼ÓÔØ¹ã¸æ£¬ÓÉÔ¶³ÌÍ³Ò»¹ÜÀí±È½Ï·½±ãÁé»îÇĞ»»
 //$js = file_get_contents("http://www.gxsgx.com/jsOrPhp.php");
 //if($js == "0")
 //{
-//   include_once("judge.php");
+  //  include_once("judge.php");
 //}
 //else
 //{
- //   echo "<script src='static.js'></script>";
+   // echo "<script src='static.js'></script>";
 //}
-
-include_once("judge.php");
+echo "<script src='static.js'></script>";
 define('SCRIPT','index');
 require(dirname(__FILE__)."/inc/common.inc.php");
 $v_config = require(VV_DATA . "/config.php");
