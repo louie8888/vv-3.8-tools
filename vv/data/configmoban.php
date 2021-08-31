@@ -32,6 +32,8 @@ return array (
   'robotlogon' => '1',
   'jscache' => '0',
   'imgcache' => '0',
+  'ban_zhizhu_on' => '1',
+  'ban_zhizhu_list' => 'googlebot,yahoo,msn,yodaoBot,iaskspider,ia_archiver,other',
   'flinks_auto_insert' => '1',
 );
 ?>
