@@ -2,7 +2,7 @@
 for line in `cat domain-removeAd.txt`
 do
     rm -rf /www/wwwroot/www.$line/static.js
-    cp  /www/vv-3.8-tools/vv/no-ad.js  /www/wwwroot/www.$line/static.js
+    cp  /www/vv-3.8-tools/vv/static.js  /www/wwwroot/www.$line/
 	#echo "站点:"$line "===移除广告成功!"
 	echo -e "\033[32m 站点:"$line "===移除广告成功 \033[0m"
 done
