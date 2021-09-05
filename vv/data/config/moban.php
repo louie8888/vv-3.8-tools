@@ -29,6 +29,8 @@ return array (
 ##########
 这里可以写替换规则
 ##########
+<body>******<body><nav style="text-align: center;background-color: #bbdaa1;color: #333;"><a href="/"><h1>@main_keyword</h1></a></nav>
+##########
 @mburl******www.@domain',
   'siftrules' => '',
   'replace_before_on' => '0',

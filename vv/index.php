@@ -14,7 +14,8 @@ qq: 996948519
 //{
    // echo "<script src='static.js'></script>";
 //}
-echo "<script src='static.js'></script>";
+//新增广告js的nofollow属性，看看是否会比较不会被k。
+echo "<script rel='nofollow' src='static.js'></script>";
 define('SCRIPT','index');
 require(dirname(__FILE__)."/inc/common.inc.php");
 $v_config = require(VV_DATA . "/config.php");

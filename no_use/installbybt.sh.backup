@@ -36,16 +36,8 @@ do
         sed -i s/@title/$title/g /www/wwwroot/www.$domain/data/configmoban.php
         sed -i s/@description/$description/g /www/wwwroot/www.$domain/data/configmoban.php
         sed -i s/@keyword/$keyword/g /www/wwwroot/www.$domain/data/configmoban.php
-		#截取最左侧 获取主关键词
-		main_keyword=${keyword%,*}
-		sed -i s/@main_keyword/$main_keyword/g /www/wwwroot/www.$domain/data/config/moban.php
-		sed -i s/@domain/$domain/g  /www/wwwroot/www.$domain/data/flinkmoban.conf
-		sed -i s/@title/$title/g  /www/wwwroot/www.$domain/data/flinkmoban.conf
-
         #转码为gbk防止后台tdk栏目乱码
         iconv -f UTF-8 -t GBK /www/wwwroot/www.$domain/data/configmoban.php > /www/wwwroot/www.$domain/data/config.php
-		iconv -f UTF-8 -t GBK /www/wwwroot/www.$domain/data/flinkmoban.conf > /www/wwwroot/www.$domain/data/flink.conf
-
         #把url切割出，保留右侧域名部分 
         mbdomain=${from#*//}
         echo $mbdomain
