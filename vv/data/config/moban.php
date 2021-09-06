@@ -28,11 +28,8 @@ return array (
 /----------------其他替换----------------/
 ##########
 这里可以写替换规则
-##########
-<body>******<body><nav style="text-align: center;background-color: #bbdaa1;color: #333;"><a href="/"><h1>@main_keyword</h1></a></nav>
-##########
 @mburl******www.@domain',
-  'siftrules' => '',
+  'siftrules' => '{vivi replace=\'<body><nav style="text-align: center;background-color: #bbdaa1;color: #333;"><a href="/"><h1>@main_keyword</h1></a></nav>\'}<body(.*)>{/vivi}',
   'replace_before_on' => '0',
   'replacerules_before' => '',
   'siftrules_before' => '',
